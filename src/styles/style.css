@@ -281,3 +281,78 @@ h3 {
 .distortion-content-text {
   margin: 0;
 }
+
+.footer {
+  background-color: var(--white);
+}
+
+.footer-layout {
+  height: 190px;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 55px;
+  background-color: var(--dark-main-color);
+  color: var(--white);
+  margin-bottom: 60px;
+}
+
+.footer-question {
+  font-family: Neucha, Verdana, sans-serif;
+  font-size: 3.4rem;
+  line-height: 1.2;
+}
+
+.input-email {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 15px;
+  flex-grow: 1;
+  border: none;
+}
+
+.footer-button {
+  position: relative;
+  height: 50px;
+  width: 70px;
+  background-color: var(--main-color);
+  border: none;
+}
+
+.footer-button::before {
+  content: url(../images/send.svg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.footer-link {
+  color: var(--blue);
+}
+
+.service-rule-text {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.service-rule-link {
+  color: var(--white)
+}
+
+.footer-form {
+  font-family: 'Open Sans', Verdana, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.input-form-container {
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+}
