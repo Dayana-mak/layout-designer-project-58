@@ -160,7 +160,7 @@ h3 {
 
 .section-video__video {
   display: block;
-  margin: -200px auto 0;
+  margin: -208px auto 0;
 
   position: relative;
   top: 200px;
@@ -169,7 +169,7 @@ h3 {
 }
 
 .section-navigation {
-  padding-top: 100px;
+  padding-top: 116px;
   background-color: var(--dark-main-color);
   color: var(--white)
 }
@@ -216,8 +216,6 @@ h3 {
   line-height: 1em;
   color: var(--dark-main-color)
 }
-
-
 
 .navigation-item__text {
   color: var(--dark);
