@@ -88,27 +88,28 @@ h3 {
   background-size: cover;
   opacity: 0.1;
   height: 914px;
-  z-index: -2;
 }
 
 .background-light {
+  position: relative;
   background-color: var(--light);
-  z-index: -3;
 }
 
 .background-dark {
+  position: relative;
   color: var(--white);
   background-color: var(--brown);
-  z-index: -3;
 }
 
-
+.header__title {
+  position: relative;
+  z-index: 1;
+}
 .header__image {
   position: absolute;
   top: 55px;
   right: -270px;
   height: 525px;
-  z-index: -1;
 }
 
 .layout-2-column {
@@ -145,10 +146,6 @@ h3 {
 .header__description {
   margin-top: 185px;
 }
-
-/*.section-video {
-  height: 814px;
-}*/
 
 .section-video__text {
   text-align: center;
