@@ -89,7 +89,7 @@ h3 {
   right: 0;
   bottom: 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   opacity: 0.1;
   height: 914px;
 }
@@ -116,7 +116,6 @@ h3 {
   right: -270px;
   height: 525px;
 }
-
 
 .layout-2-column {
   display: flex;
