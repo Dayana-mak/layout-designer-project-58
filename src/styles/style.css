@@ -42,7 +42,9 @@ body {
   color: var(--dark);
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3 {
   margin: 0;
   font-family: Neucha, Verdana, sans-serif;
   line-height: 1.2em;
@@ -121,6 +123,10 @@ h3 {
   justify-content: space-between;
 }
 
+.section-navigation-wrapper > * {
+  width: 350px;
+}
+
 .layout-2-column > * {
   flex-basis: 50%;
 }
@@ -169,7 +175,7 @@ h3 {
 .section-navigation {
   padding-top: 92px;
   background-color: var(--dark-main-color);
-  color: var(--white)
+  color: var(--white);
 }
 
 .section-navigation-wrapper {
@@ -177,10 +183,6 @@ h3 {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px 30px;
-}
-
-.section-navigation-wrapper > * {
-  width: 350px;
 }
 
 .section-navigation-title {
@@ -212,7 +214,7 @@ h3 {
   font-size: 6.4rem;
   font-family: Neucha, Verdana, sans-serif;
   line-height: 1em;
-  color: var(--dark-main-color)
+  color: var(--dark-main-color);
 }
 
 .navigation-item-text {
@@ -225,23 +227,21 @@ h3 {
 }
 
 .distortion-img { 
-  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.15);
-
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 15%);
 }
 
 .distortion-sub-title {
   margin: 0;
-
   font-family: Neucha, Verdana, sans-serif;
   font-size: 2.4rem;
 }
 
 .dark {
-  color: var(--translucent-dark)
+  color: var(--translucent-dark);
 }
 
 .light {
-  color: var(--translucent-white)
+  color: var(--translucent-white);
 }
 
 .title-background-dark {
@@ -251,18 +251,16 @@ h3 {
 
 .title-background-light {
   background-color: var(--white);
-  color: var(--brown)
+  color: var(--brown);
 }
 
 .distortion-title {
   margin: 0;
-
   text-align: left;
 }
 
 .distortion-title-description {
   margin: 30px 0;
-
   font-family: Neucha, Verdana, sans-serif;
   font-size: 3.4rem;
   line-height: 1.2em;
@@ -318,7 +316,7 @@ h3 {
 }
 
 .footer-button::before {
-  content: url(../images/send.svg);
+  content: url("../images/send.svg");
   position: absolute;
   top: 50%;
   left: 50%;
