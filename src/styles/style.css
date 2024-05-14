@@ -70,6 +70,10 @@ h3 {
   margin: 0 auto;
 }
 
+.header {
+  overflow: hidden;
+}
+
 .header,
 .distortion {
   position: relative;
@@ -111,8 +115,8 @@ h3 {
   top: 55px;
   right: -270px;
   height: 525px;
-  overflow: hidden;
 }
+
 
 .layout-2-column {
   display: flex;
