@@ -13,13 +13,13 @@
 
 @font-face {
   font-weight: normal;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: bold;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-Bold.ttf");
 }
 
@@ -35,7 +35,7 @@ html {
 body {
   margin: 0;
 
-  font-family: 'Open Sans', Verdana, sans-serif;
+  font-family: "Open Sans", Verdana, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   font-weight: 400;
@@ -44,7 +44,6 @@ body {
 
 h1, h2, h3 {
   margin: 0;
-
   font-family: Neucha, Verdana, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
@@ -105,12 +104,12 @@ h3 {
   background-color: var(--brown);
 }
 
-.header__title {
+.header-title {
   position: relative;
   z-index: 1;
 }
 
-.header__image {
+.header-image {
   position: absolute;
   top: 55px;
   right: -270px;
@@ -134,7 +133,7 @@ h3 {
   color: var(--main-color);
 }
 
-.header__link {
+.header-link {
   display: block;
   box-sizing: border-box;
   width: 148px;
@@ -148,16 +147,16 @@ h3 {
   color: var(--white);
 }
 
-.header__description {
+.header-description {
   margin-top: 185px;
 }
 
-.section-video__text {
+.section-video-text {
   text-align: center;
   margin: 30px 0;
 }
 
-.section-video__video {
+.section-video-video {
   display: block;
   margin: -184px auto 0;
 
@@ -173,18 +172,18 @@ h3 {
   color: var(--white)
 }
 
-.section-navigation__wrapper {
+.section-navigation-wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px 30px;
 }
 
-.section-navigation__wrapper > * {
+.section-navigation-wrapper > * {
   width: 350px;
 }
 
-.section-navigation__title {
+.section-navigation-title {
   font-size: 5.2rem;
   text-align: left;
 }
@@ -207,7 +206,7 @@ h3 {
   transition: 0.3s;
 }
 
-.navigation-item__num {
+.navigation-item-num {
   margin: 0;
   padding-bottom: 40px;
   font-size: 6.4rem;
@@ -216,12 +215,12 @@ h3 {
   color: var(--dark-main-color)
 }
 
-.navigation-item__text {
+.navigation-item-text {
   color: var(--dark);
   margin: 0;
 }
 
-.navigation-item__title {
+.navigation-item-title {
   padding-bottom: 16px;
 }
 
@@ -272,7 +271,7 @@ h3 {
 .distortion-content-title {
   margin: 100px 0 20px;
   padding-left: 10px;
-  font-family: 'Open Sans', Verdana, sans-serif;
+  font-family: "Open Sans", Verdana, sans-serif;
   font-weight: bold;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -342,11 +341,11 @@ h3 {
 }
 
 .service-rule-link {
-  color: var(--white)
+  color: var(--white);
 }
 
 .footer-form {
-  font-family: 'Open Sans', Verdana, sans-serif;
+  font-family: "Open Sans", Verdana, sans-serif;
   font-size: 1.8rem;
   line-height: 1.6;
 }
